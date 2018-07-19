@@ -16,6 +16,7 @@
 		3FBF3F2021011017005EF2B9 /* fall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF3F1C21011016005EF2B9 /* fall.mp3 */; };
 		3FBF3F2121011017005EF2B9 /* tetris_original.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF3F1D21011017005EF2B9 /* tetris_original.mp3 */; };
 		3FBF3F2221011017005EF2B9 /* harddrop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF3F1E21011017005EF2B9 /* harddrop.mp3 */; };
+		3FBF3F25210111F6005EF2B9 /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF3F24210111F6005EF2B9 /* Brick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3FBF3F1C21011016005EF2B9 /* fall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fall.mp3; sourceTree = "<group>"; };
 		3FBF3F1D21011017005EF2B9 /* tetris_original.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tetris_original.mp3; sourceTree = "<group>"; };
 		3FBF3F1E21011017005EF2B9 /* harddrop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = harddrop.mp3; sourceTree = "<group>"; };
+		3FBF3F24210111F6005EF2B9 /* Brick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				3FBF3F2321011078005EF2B9 /* Resources */,
 				3FBF3F092100C878005EF2B9 /* AppDelegate.swift */,
+				3FBF3F24210111F6005EF2B9 /* Brick.swift */,
 				3FBF3F0B2100C878005EF2B9 /* ViewController.swift */,
 				3FBF3F0D2100C878005EF2B9 /* Main.storyboard */,
 				3FBF3F102100C87A005EF2B9 /* Assets.xcassets */,
@@ -161,6 +164,7 @@
 			files = (
 				3FBF3F0C2100C878005EF2B9 /* ViewController.swift in Sources */,
 				3FBF3F0A2100C878005EF2B9 /* AppDelegate.swift in Sources */,
+				3FBF3F25210111F6005EF2B9 /* Brick.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
