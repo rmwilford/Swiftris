@@ -13,6 +13,7 @@
 		3F0BEA95210116D700C2ADA0 /* GameScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BEA94210116D700C2ADA0 /* GameScore.swift */; };
 		3F0BEA97210116FD00C2ADA0 /* NextBrick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BEA96210116FD00C2ADA0 /* NextBrick.swift */; };
 		3F0BEA992101172500C2ADA0 /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BEA982101172500C2ADA0 /* GameButton.swift */; };
+		3F0BEA9C21011AE600C2ADA0 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BEA9B21011AE600C2ADA0 /* Swiftris.swift */; };
 		3F64343C2101128B00CC247B /* GameTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64343B2101128B00CC247B /* GameTimer.swift */; };
 		3FBF3F0A2100C878005EF2B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF3F092100C878005EF2B9 /* AppDelegate.swift */; };
 		3FBF3F0C2100C878005EF2B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF3F0B2100C878005EF2B9 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 		3F0BEA94210116D700C2ADA0 /* GameScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScore.swift; sourceTree = "<group>"; };
 		3F0BEA96210116FD00C2ADA0 /* NextBrick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextBrick.swift; sourceTree = "<group>"; };
 		3F0BEA982101172500C2ADA0 /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
+		3F0BEA9B21011AE600C2ADA0 /* Swiftris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 		3F64343B2101128B00CC247B /* GameTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTimer.swift; sourceTree = "<group>"; };
 		3FBF3F062100C878005EF2B9 /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBF3F092100C878005EF2B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,18 @@
 			path = Sound;
 			sourceTree = "<group>";
 		};
+		3F0BEA9A21011AC400C2ADA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F0BEA902101168200C2ADA0 /* GameView.swift */,
+				3F0BEA92210116A900C2ADA0 /* GameBoard.swift */,
+				3F0BEA94210116D700C2ADA0 /* GameScore.swift */,
+				3F0BEA96210116FD00C2ADA0 /* NextBrick.swift */,
+				3F0BEA982101172500C2ADA0 /* GameButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3FBF3EFD2100C878005EF2B9 = {
 			isa = PBXGroup;
 			children = (
@@ -97,13 +111,10 @@
 			children = (
 				3F0BEA8F2101164500C2ADA0 /* Sound */,
 				3FBF3F2321011078005EF2B9 /* Resources */,
+				3F0BEA9A21011AC400C2ADA0 /* View */,
 				3F0BEA8C210115FF00C2ADA0 /* Model */,
 				3FBF3F092100C878005EF2B9 /* AppDelegate.swift */,
-				3F0BEA902101168200C2ADA0 /* GameView.swift */,
-				3F0BEA92210116A900C2ADA0 /* GameBoard.swift */,
-				3F0BEA94210116D700C2ADA0 /* GameScore.swift */,
-				3F0BEA96210116FD00C2ADA0 /* NextBrick.swift */,
-				3F0BEA982101172500C2ADA0 /* GameButton.swift */,
+				3F0BEA9B21011AE600C2ADA0 /* Swiftris.swift */,
 				3FBF3F0B2100C878005EF2B9 /* ViewController.swift */,
 				3FBF3F0D2100C878005EF2B9 /* Main.storyboard */,
 				3FBF3F102100C87A005EF2B9 /* Assets.xcassets */,
@@ -203,6 +214,7 @@
 				3F0BEA95210116D700C2ADA0 /* GameScore.swift in Sources */,
 				3FBF3F0C2100C878005EF2B9 /* ViewController.swift in Sources */,
 				3F64343C2101128B00CC247B /* GameTimer.swift in Sources */,
+				3F0BEA9C21011AE600C2ADA0 /* Swiftris.swift in Sources */,
 				3FBF3F0A2100C878005EF2B9 /* AppDelegate.swift in Sources */,
 				3F0BEA93210116A900C2ADA0 /* GameBoard.swift in Sources */,
 				3FBF3F25210111F6005EF2B9 /* Brick.swift in Sources */,
