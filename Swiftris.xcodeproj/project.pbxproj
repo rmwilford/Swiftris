@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0BEA8E2101162F00C2ADA0 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BEA8D2101162F00C2ADA0 /* SoundManager.swift */; };
 		3F64343C2101128B00CC247B /* GameTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64343B2101128B00CC247B /* GameTimer.swift */; };
 		3FBF3F0A2100C878005EF2B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF3F092100C878005EF2B9 /* AppDelegate.swift */; };
 		3FBF3F0C2100C878005EF2B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF3F0B2100C878005EF2B9 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0BEA8D2101162F00C2ADA0 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		3F64343B2101128B00CC247B /* GameTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTimer.swift; sourceTree = "<group>"; };
 		3FBF3F062100C878005EF2B9 /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBF3F092100C878005EF2B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F0BEA8C210115FF00C2ADA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF3F24210111F6005EF2B9 /* Brick.swift */,
+				3F64343B2101128B00CC247B /* GameTimer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F0BEA8F2101164500C2ADA0 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				3F0BEA8D2101162F00C2ADA0 /* SoundManager.swift */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		3FBF3EFD2100C878005EF2B9 = {
 			isa = PBXGroup;
 			children = (
@@ -66,10 +85,10 @@
 		3FBF3F082100C878005EF2B9 /* Swiftris */ = {
 			isa = PBXGroup;
 			children = (
+				3F0BEA8F2101164500C2ADA0 /* Sound */,
 				3FBF3F2321011078005EF2B9 /* Resources */,
+				3F0BEA8C210115FF00C2ADA0 /* Model */,
 				3FBF3F092100C878005EF2B9 /* AppDelegate.swift */,
-				3FBF3F24210111F6005EF2B9 /* Brick.swift */,
-				3F64343B2101128B00CC247B /* GameTimer.swift */,
 				3FBF3F0B2100C878005EF2B9 /* ViewController.swift */,
 				3FBF3F0D2100C878005EF2B9 /* Main.storyboard */,
 				3FBF3F102100C87A005EF2B9 /* Assets.xcassets */,
@@ -169,6 +188,7 @@
 				3F64343C2101128B00CC247B /* GameTimer.swift in Sources */,
 				3FBF3F0A2100C878005EF2B9 /* AppDelegate.swift in Sources */,
 				3FBF3F25210111F6005EF2B9 /* Brick.swift in Sources */,
+				3F0BEA8E2101162F00C2ADA0 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
